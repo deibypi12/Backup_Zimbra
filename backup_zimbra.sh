@@ -29,8 +29,7 @@ path_src=/opt/zimbra
 # Ruta pra log.
 path_log=$path_dst_backup/log_$date.log
 
-# Ruta en el disco duro donde esta el directorio /home
-# Commando para visualizar ruta de home en disco : "# df -h /home"
+# Commando para visualizar en que partición está home: # df -h /home
 # La ruta puede cambiar dependiendo el directorio en el 
 # que se vaya a guardar el backup. La ruta en la mayoría de casos
 # puede ser /dev/sda2 Ejemplo: path_dev=/dev/sda2
